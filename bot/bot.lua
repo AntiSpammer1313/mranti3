@@ -46,7 +46,7 @@ function msg_valid(msg)
     print('\27[36mNot valid: msg from us\27[39m')
     return false
   end
-
+  
   -- Before bot was started
   if msg.date < now then
     print('\27[36mNot valid: old msg\27[39m')
@@ -237,7 +237,7 @@ function create_config( )
 end
 
 function on_our_id (id)
-104890103 = id
+mr_meysam1 = id
 end
 
 function on_user_update (user, what)
